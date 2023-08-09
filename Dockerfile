@@ -6,7 +6,7 @@ FROM docker.io/centos/systemd
 RUN    echo "hello unnati "  > unnati.txt
  RUN yum -y install httpd
 
- RUN echo "hello this is  Docker plugins with  WEbhooks with jenkins parameter as image done successfully with jenkins     At Unnati " > /var/www/html/index.html
+ RUN echo "hello this is  Docker plugins with  WEbhooks with jenkins parameter as image done successfully with jenkins " > /var/www/html/index.html
 
  EXPOSE 80
 
